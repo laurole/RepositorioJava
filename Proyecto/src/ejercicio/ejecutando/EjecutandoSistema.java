@@ -49,7 +49,7 @@ public class EjecutandoSistema {
 	public static void imprimir(Estudiante e) {
 		
 		System.out.println("Estudiante: " + e.getNombre() + "\n"
-				+ " Edad: " + e.getEdad() + "\n" + "Carrera: " + e.getCarrera().getNombre());
+				+ " Edad: " + e.getEdad() + "\n" + "Carrera: " + e.getCarrera().toString());
 	}
 
 }
